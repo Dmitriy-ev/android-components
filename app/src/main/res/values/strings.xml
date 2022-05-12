@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ComponentsExample</string>
+    <string name="receiver">broadcast</string>
+    <string name="airplane_mode">включи/выключи wifi</string>
+</resources>
