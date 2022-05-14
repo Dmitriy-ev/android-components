@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    tools:context=".ReceiverActivity">
+    android:orientation="vertical"
+    tools:context=".broadcastreceiver.ReceiverActivity">
 
 
     <Button
@@ -13,5 +14,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="@string/receiver" />
+
+    <Button
+        android:id="@+id/content_provider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/content_provider" />
 
 </LinearLayout>

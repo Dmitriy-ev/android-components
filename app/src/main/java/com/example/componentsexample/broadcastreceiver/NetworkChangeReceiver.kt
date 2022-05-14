@@ -1,4 +1,4 @@
-package com.example.componentsexample
+package com.example.componentsexample.broadcastreceiver
 
 import android.content.BroadcastReceiver
 import android.content.Context

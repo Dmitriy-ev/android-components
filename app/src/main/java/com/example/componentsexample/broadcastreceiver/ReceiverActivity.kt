@@ -1,10 +1,11 @@
-package com.example.componentsexample
+package com.example.componentsexample.broadcastreceiver
 
 
 import android.content.IntentFilter
 import android.net.wifi.WifiManager
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.componentsexample.R
 
 class ReceiverActivity : AppCompatActivity() {
 
@@ -12,7 +13,7 @@ class ReceiverActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.receiver_activity)
+        setContentView(R.layout.activity_receiver)
         receiver = NetworkChangeReceiver()
     }
 
