@@ -2,5 +2,9 @@
     <string name="app_name">ComponentsExample</string>
     <string name="receiver">broadcast receiver</string>
     <string name="content_provider">content provider</string>
+    <string name="service">service</string>
     <string name="airplane_mode">включи/выключи wifi</string>
+    <string name="heading">Services In Android</string>
+    <string name="startButtonText">Start the Service</string>
+    <string name="stopButtonText">Stop the Service</string>
 </resources>
